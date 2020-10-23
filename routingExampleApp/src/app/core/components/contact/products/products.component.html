@@ -1,0 +1,23 @@
+<header><h1 class="title">'Lista de productos de Eustaquio'</h1></header>
+
+
+<main class="principalContainer">
+    <body>
+        <section>
+            <div *ngFor="let publication of publications">
+        
+                <app-caja [nombrePublicacion]="publication.name " 
+                    (compraMandada)="capturarCompra($event)"
+                     ></app-caja> 
+           
+            </div><br>
+            <section>
+                <div>
+                    <input class="cesta" type="text" name="escribe tu producto aqui" id="" >
+                    <button class="buyer">Comprar</button>
+                </div>
+            </section>
+        </section>
+    </body>
+</main>
+        

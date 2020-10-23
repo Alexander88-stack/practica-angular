@@ -1,0 +1,21 @@
+* {
+    padding:0;
+    margin:0;
+    
+}
+
+.tiptexthead {
+    text-align: center;
+}
+
+.milistacontactos {
+    list-style: none;
+    padding: 5px;
+    margin:20px;
+}
+
+.lowpage {
+margin:400px;
+padding: 1px;
+text-align: left;
+}
